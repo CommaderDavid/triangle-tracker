@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle Tracker</h1>
+      <p>This helpful form will help you know what kind of triangle you are working on based on what </p>
+      <p>Please do not input negitive measurements:</p>
+
+      <form id="math">
+        <label for="side1">First Side:</label>
+        <input type="text" id="side1">
+        <label for="side2">Second Side:</label>
+        <input type="text" id="side2">
+        <label for="side3">Third Side:</label>
+        <input type="text" id="side3">
+        <button type="submit" id="which">What's your Triangle?</button>
+      </form>
+
+      <div id="hide">
+        <p>Your triangle is <span id="tri"></span>!</p>
+      </div>
+    </div>
+  </body>
+</html>
